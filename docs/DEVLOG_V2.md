@@ -1,5 +1,7 @@
 # Development log: v2 platform starter
 
+> Historical platform notes. **Product development lives in [litigation-prompt-engineering-v2](https://github.com/Pukujan/litigation-prompt-engineering-v2) only** — no sync to `create-modular-monolith`.
+
 **Branch:** `v2`  
 **Base:** `main` (minimal modular monolith starter)  
 **Commit:** `f035aec` — `feat(v2): module internal contract, tests, and npm create CLI`  

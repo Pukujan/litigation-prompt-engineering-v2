@@ -1,4 +1,4 @@
-/** @readonly Architecture push dev log (npm / create-modular-monolith exports). */
+/** @readonly Architecture push dev log (archived — not used in litigation-prompt-engineering-v2). */
 
 export const ARCHITECTURE_PUSH_DEV_LOG_VERSION = "v001";
 export const ARCH_PUSH_AGENT_SCHEMA_VERSION = "1.0.0";
@@ -13,8 +13,8 @@ export const ARCH_PUSH_VERIFY_SCRIPT = "scripts/verify-architecture-push-log.mjs
 export const ARCH_PUSH_HUMAN_FORMAT = "scripts/lib/arch-push-human-format.mjs";
 
 export const ARCH_PUSH_DEFAULT_TARGET_REPO =
-  "https://github.com/Pukujan/create-modular-monolith";
-export const ARCH_PUSH_DEFAULT_NPM_PACKAGE = "@pukujan/create-modular-monolith";
+  "https://github.com/Pukujan/litigation-prompt-engineering-v2";
+export const ARCH_PUSH_DEFAULT_NPM_PACKAGE = null;
 
 /** Filename patterns (paired by `{NNN}_{date}_{time}` prefix). */
 export const ARCH_PUSH_HUMAN_FILENAME_PATTERN =

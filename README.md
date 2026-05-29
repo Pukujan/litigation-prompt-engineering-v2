@@ -1,8 +1,8 @@
 # Litigation Prompt Engineering v2
 
-Product monolith built on [@pukujan/create-modular-monolith](https://github.com/Pukujan/create-modular-monolith) (MIT).
+Product monolith for case filing, document ingest, prompts, and agent workflows.
 
-Express + React modular monolith for case filing, document ingest, prompts, and agent workflows — with architecture contracts, file-exchange, and CI gates from the platform starter.
+Express + React with architecture contracts, file-exchange, paired dev logs, and CI gates — developed in this repo only ([litigation-prompt-engineering-v2](https://github.com/Pukujan/litigation-prompt-engineering-v2)).
 
 ## Stack
 
@@ -11,7 +11,7 @@ Express + React modular monolith for case filing, document ingest, prompts, and 
 | Backend | Express, SQLite (`DATABASE_URL`), modular loaders |
 | Frontend | React + Vite |
 | Documents | `POST /api/documents/upload` — disk + SQL ([contract](docs/architecture/contracts/documentPersistence.contract.md)) |
-| Platform | 9 architecture contracts — see [CONTRACTS_OVERVIEW](docs/architecture/CONTRACTS_OVERVIEW.md) |
+| Contracts | 9 registered IDs — [CONTRACTS_OVERVIEW](docs/architecture/CONTRACTS_OVERVIEW.md) |
 
 ## Quick start
 
@@ -47,10 +47,6 @@ curl -X POST http://localhost:3001/api/documents/upload \
 | [docs/documents/API.md](docs/documents/API.md) | Upload + read APIs |
 | [docs/API.md](docs/API.md) | Full HTTP registry |
 
-## Platform source
-
-Scaffold and contracts are maintained in [create-modular-monolith](https://github.com/Pukujan/create-modular-monolith). Sync platform-only changes via `npm run export:architecture-starter` from the product repo when needed.
-
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT — Copyright (c) 2026 Pukujan. See [LICENSE](LICENSE).

@@ -11,7 +11,6 @@ work-log/
   planning/       ← plan:finalize JSON manifests (planningPhase contract)
   checkpoints/    ← runtime proof only (e.g. batch-002 eval evidence), not conversation
   dev-logs/       ← pre-push audit: human/ + agent/ (paired per push) — what shipped
-  architecture-push-logs/  ← npm export to create-modular-monolith only (separate from dev-logs)
 ```
 
 ## When to use which folder
@@ -23,7 +22,6 @@ work-log/
 | **planning/** | `npm run plan:finalize` manifests linking study log + design + plan MD ([planningPhase contract](../docs/architecture/contracts/planningPhase.contract.md)) |
 | **checkpoints/** | Post-run evidence (batch evals, pass/fail tables) — supplements study log, does not replace it |
 | **dev-logs/** | What shipped — **paired human MD + agent JSON** before each product push |
-| **architecture-push-logs/** | Platform/npm sync — paired logs before pushing [create-modular-monolith](https://github.com/Pukujan/create-modular-monolith) |
 
 ## Filename convention (all three folders)
 

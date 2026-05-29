@@ -1,6 +1,6 @@
 # Documentation
 
-This folder describes the **modular monolith platform starter** and how **architecture guardrails** keep feature modules isolated and easy to extend.
+This folder describes the **litigation-prompt-engineering-v2** monolith and how **architecture guardrails** keep feature modules isolated and easy to extend.
 
 | Document | Purpose |
 | --- | --- |
@@ -12,7 +12,4 @@ This folder describes the **modular monolith platform starter** and how **archit
 | [Architecture guardrails](./architecture/ARCHITECTURE_GUARDRAILS.md) | Module contracts, boundaries, naming, and how enforcement works |
 | [Module internal contract](./architecture/MODULE_INTERNAL_CONTRACT.md) | MVC layers, prompts, evals, tests inside each feature module |
 | [Evals, regression, and CI gates](./architecture/EVAL_AND_CI.md) | Golden evals, `test:evals`, GitHub Actions gates |
-| [Publishing the CLI](./PUBLISHING.md) | Release `@pukujan/create-modular-monolith` to npm |
-| [Case Filing AI starter](./case-filing-ai/README.md) | Domain blueprint, module split, pipeline, guardrails, and DB schema |
-
 Canonical repository: [https://github.com/Pukujan/litigation-prompt-engineering-v2](https://github.com/Pukujan/litigation-prompt-engineering-v2)

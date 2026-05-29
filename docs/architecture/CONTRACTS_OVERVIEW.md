@@ -156,18 +156,6 @@ Domain-specific contracts (e.g. case-filing batch layout, pipeline versions) bel
 
 ---
 
-## Exporting architecture to the npm starter
-
-To refresh the **boilerplate CLI template** without domain modules:
-
-```bash
-npm run export:architecture-starter -- --to packages/create-modular-monolith/template
-```
-
-Templates: `file-exchange/exports/templates/`. Output defaults to `file-exchange/exports/architecture-starter/` (gitignored). See `EXPORT_MANIFEST.json` and [PUBLISHING.md](../PUBLISHING.md).
-
----
-
 ## Adding a new contract
 
 1. Add `docs/architecture/contracts/<name>.contract.md`

@@ -70,6 +70,6 @@
     "npm install in backend/ and frontend/",
     "npm run lint:contracts && npm run lint:architecture",
     "node scripts/new-module.mjs my-feature --label \"My Feature\"",
-    "Copy into packages/create-modular-monolith/template or publish CLI"
+    "Internal architecture export bundle (file-exchange only)"
   ]
 }

@@ -13,7 +13,6 @@ file-exchange/exports/*/
 file-exchange/exports/consolidated-*.json
 consolidated-files/
 local-artifacts.json
-.create-modular-monolith-welcome
 .env
 .env.local
 backend/.env

@@ -4,11 +4,11 @@
 **Code:** `backend/src/shared/contracts/architecturePushDevLog.contract.js`  
 **Agent schema:** `work-log/architecture-push-logs/schemas/arch-push-agent.v1.schema.json` (`1.0.0`)
 
-> **Starter package scope:** This spec is **not** registered in [manifest.json](./manifest.json) for the npm boilerplate. The template ships the contract markdown/JS for export sync only; `arch-log:push` / `arch-log:verify` scripts live in the **maintainer** repo ([create-modular-monolith](https://github.com/Pukujan/create-modular-monolith) root), not in generated apps.
+> **Not used in this product repo.** Archived contract doc kept for reference only. Use [prePushDevLog.contract.md](./prePushDevLog.contract.md) before pushes here.
 
-## Purpose
+## Purpose (archived)
 
-When syncing **legal-prmpt-eng** → **[create-modular-monolith](https://github.com/Pukujan/create-modular-monolith)** (architecture export + npm publish), record a **separate** paired audit from product pre-push dev logs.
+Historical spec for a separate architecture/npm export audit trail. **litigation-prompt-engineering-v2** does not sync to an external scaffold package.
 
 | Audience | Path | Format |
 |----------|------|--------|
@@ -19,12 +19,7 @@ Human logs include a **long-form UTC timestamp** in the header (e.g. `Sunday, 24
 
 ## Commands
 
-```bash
-npm run arch-log:push -- --slug <kebab-topic> [--npm-version 2.2.5] [--export-to /path/to/create-modular-monolith/template]
-npm run arch-log:verify
-```
-
-Run **after** `npm run export:architecture-starter -- --to …` and **before** pushing create-modular-monolith / `npm publish`.
+Not wired in this repo. Use `npm run dev-log:pre-push` instead.
 
 ## Product vs architecture logs
 

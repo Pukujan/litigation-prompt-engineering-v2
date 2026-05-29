@@ -3,8 +3,6 @@
   "private": true,
   "version": "0.1.0",
   "scripts": {
-    "sync:cli-template": "node scripts/sync-cli-template.mjs",
-    "export:architecture-starter": "node scripts/export-architecture-starter.mjs",
     "dev:backend": "npm --prefix backend run dev",
     "dev:frontend": "npm --prefix frontend run dev",
     "lint:boundaries": "npm --prefix backend run lint:boundaries",
